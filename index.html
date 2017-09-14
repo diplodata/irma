@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+<style>
+  .container-fluid { padding: 0px 0px 0px 0px; }
+  /* rescale iframe contents */
+  body {
+  margin: 0;
+  padding: 0;
+}
+  iframe {
+    display: block;
+    width: 100%;
+    height:100%;
+    position:absolute;
+    overflow-x:hidden;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    border: 0 0 0 0;
+  /*zoom: .8;
+  -webkit-zoom: .8;
+  -ms-zoom: .8;
+  -moz-transform: scale(.8, .8);
+  -webkit-transform: scale(1);
+  -o-transform: scale(1, 1);
+  -ms-transform: scale(1.25, 1.25);
+  transform: scale(1.25, 1.25);
+  -moz-transform-origin: top left;
+  -webkit-transform-origin: top left;
+  -o-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+  }
+  @media screen and (-webkit-min-device-pixel-ratio:0) { #scaled-frame { zoom: .8;} }*/
+</style>
+
+</head>
+
+<body>
+    <iframe id="frame" src = "./iframe.html" marginwidth="0" ></iframe>
+
+  <script type="text/javascript">
+    setTimeout(function () {
+      location.reload();
+    }, 900 * 1000);
+  </script>
+
+</body>
+</html>
