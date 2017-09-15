@@ -1,1 +1,1 @@
-https://api.gdeltproject.org/api/v2/doc/doc?query=Hurricane%20Irma%20sourcelang:eng&mode=ArtGallery&sort=DateDesc&maxrecords=250&timespan=4h
+https://api.gdeltproject.org/api/v2/doc/doc?query=irma%20(british%20OR%20britain%20OR%20commonwealth%20OR%20caribbean%20OR%20BVI%20OR%20anguilla%20OR%20caicos)&mode=ArtGallery&sort=DateDesc&maxrecords=250&timespan=6h
